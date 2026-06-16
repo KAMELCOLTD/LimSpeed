@@ -1,4 +1,4 @@
-# LimSpeed
+١# LimSpeed
 
 Control internet speed per app.
 
@@ -12,7 +12,3 @@ Control internet speed per app.
 - **Name:** Kamel Alhakimi
 - **Email:** Kamelcoltd@gmail.com
 
-## How to build
-1. Push to GitHub.
-2. Check GitHub Actions for automatic APK build.
-3. Download APK from Artifacts.
