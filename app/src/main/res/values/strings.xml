@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LimSpeed</string>
+    <string name="app_description">Control internet speed per app</string>
+    <string name="start_service">Start Limiting</string>
+    <string name="stop_service">Stop Limiting</string>
+    <string name="global_speed">Global Speed</string>
+    <string name="per_app_speed">Per App Speed</string>
+    <string name="speed_kb">KB/s</string>
+    <string name="speed_mb">MB/s</string>
+    <string name="set_speed">Set Speed</string>
+    <string name="select_app">Select App</string>
+    <string name="speed_limit">Speed Limit</string>
+    <string name="no_apps">No apps found</string>
+    <string name="permission_required">Usage Stats Permission Required</string>
+    <string name="developer">Developer: Kamel Alhakimi</string>
+    <string name="email">Kamelcoltd@gmail.com</string>
+</resources>

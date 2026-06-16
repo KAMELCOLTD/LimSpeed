@@ -1,61 +1,18 @@
-# 📱 LimSpeed - تطبيق التحكم بسرعة الإنترنت
+# LimSpeed
 
-تطبيق أندرويد خفيف وسريع يسمح لك بالتحكم الدقيق في سرعة الإنترنت لكل تطبيق على حدة، دون الحاجة إلى صلاحيات Root.
+Control internet speed per app.
 
----
+## Features
+- Global speed limit
+- Per app speed limit
+- Light/Dark theme support
+- Arabic/English support
 
-## 🎯 المميزات الرئيسية
+## Developer
+- **Name:** Kamel Alhakimi
+- **Email:** Kamelcoltd@gmail.com
 
-- 🎯 **تحديد سرعة عامة** - من 50 كيلوبايت إلى 10 ميجابايت/ثانية
-- 📱 **تحديد سرعة لكل تطبيق** - سرعة مختلفة لكل تطبيق
-- 🌓 **واجهة مزدوجة** - نهارية وليلية حسب إعدادات الجهاز
-- 🌍 **دعم لغتين** - عربي وإنجليزي حسب لغة الجهاز
-- ⚡ **خفيف جداً** - حجم APK أقل من 3 ميجابايت
-- 🔋 **لا يستهلك البطارية** - يعمل بتقنية VPN الذكية
-- 🚀 **سريع وفعال** - بدون تأخير في الأداء
----
-
-## 🛠️ كيفية البدء
-
-```bash
-# استنساخ المشروع
-git clone https://github.com/KAMELCOLTD/LimSpeed.git
-cd LimSpeed
-
-# بناء التطبيق
-./gradlew build
-
-# تشغيل الاختبارات
-./gradlew test
-```
-
----
-
-## 📋 المتطلبات
-
-- **Android SDK**: API 26 (Android 7.0) فأعلى
-- **Java**: 11 أو أحدث
-- **Gradle**: 8.0+
-- **Android Studio**: Giraffe أو أحدث
-
----
-
-## 🔒 الصلاحيات المطلوبة
-
-- VPN Service
-- Usage Stats
-- Foreground Service
-
----
-
-## 👨‍💻 المطور
-
-**كامل الحكيمي (Kamel Alhakimi)**  
-GitHub: [@KAMELCOLTD](https://github.com/KAMELCOLTD)
-
----
-
-## 📄 الترخيص
-
-هذا المشروع مرخص تحت MIT License
-
+## How to build
+1. Push to GitHub.
+2. Check GitHub Actions for automatic APK build.
+3. Download APK from Artifacts.

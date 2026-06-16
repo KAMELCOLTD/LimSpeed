@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ليم سبيد</string>
+    <string name="app_description">التحكم في سرعة الإنترنت لكل تطبيق</string>
+    <string name="start_service">بدء التحديد</string>
+    <string name="stop_service">إيقاف التحديد</string>
+    <string name="global_speed">السرعة العامة</string>
+    <string name="per_app_speed">سرعة كل تطبيق</string>
+    <string name="speed_kb">ك.ب/ث</string>
+    <string name="speed_mb">م.ب/ث</string>
+    <string name="set_speed">تعيين السرعة</string>
+    <string name="select_app">اختر التطبيق</string>
+    <string name="speed_limit">حد السرعة</string>
+    <string name="no_apps">لا توجد تطبيقات</string>
+    <string name="permission_required">صلاحية الإحصائيات مطلوبة</string>
+    <string name="developer">المطور: كامل الحكيمي</string>
+    <string name="email">Kamelcoltd@gmail.com</string>
+</resources>

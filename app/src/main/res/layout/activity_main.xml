@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Developer Info -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamel Alhakimi"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Global Speed -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/global_speed"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.slider.Slider
+                android:id="@+id/sliderSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:valueFrom="50"
+                android:valueTo="10000"
+                android:value="250"
+                android:stepSize="10"/>
+
+            <TextView
+                android:id="@+id/tvGlobalSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="250 KB/s"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start_service"
+            android:backgroundTint="@color/accent"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/stop_service"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <!-- App List -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/per_app_speed"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvApps"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Footer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/developer"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"/>
+</LinearLayout>
